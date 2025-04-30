@@ -32,12 +32,12 @@ const arrow3:ArrowType = (x) => {
 }
 */
 const App = () => {
-    let cislo: number = 50;
+    let cislo: number = 11;
     cislo -= 1;
     return (
         <>
-            <PercentView value={cislo + 1} max={100} makeColor={(p) => `rgb(${p*2*100}, 255, 255)`}/>
-            <PercentView value={cislo + 10} max={100} makeColor={(p) => `rgb(${p*2*100}, 255, 255)`}/>
+            <PercentView value={cislo + 15} max={100} makeColor={(p) => `rgb(${p*2*100}, 255, 255)`}/>
+            <PercentView value={cislo + 40} max={100} makeColor={(p) => `rgb(${p*2*100}, 255, 255)`}/>
             <PercentView value={100} max={100} makeColor={(p) => `hsl(10, 100%, ${p*50}%)`}/>
         </>  
     )
