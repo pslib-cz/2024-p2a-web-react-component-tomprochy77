@@ -4,9 +4,9 @@
     align-items: center;
     justify-content: center;
     font-size: 2rem;
-    border: 1px solid #8975;
+    border: 1px solid rgb(255, 0, 221);
     border-radius: 5px;
-    padding: .5em;
+    padding: 2.5em 3em 2.5em 3em;
 }
 .bar {
     width: 100%;
